@@ -19,5 +19,7 @@ int main()
         std::cout <<"not equal"<<std::endl;
     }
 
+    std::cout << matrix.sum() <<std::endl;
+
     return 0;
 }

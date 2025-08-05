@@ -16,6 +16,10 @@ public:
 
     void fill(const T& val);
 
+    T min() const;
+    T max() const;
+    T sum() const;
+
 private:
     size_t size;
     std::vector<MultiDimMatrix<T, N-1>> matrix;
@@ -33,6 +37,10 @@ public:
     bool operator!=(const MultiDimMatrix<T, 1> &other) const;
 
     void fill(const T& val);
+
+    T min() const;
+    T max() const;
+    T sum() const;
 
 private:
     size_t size;
